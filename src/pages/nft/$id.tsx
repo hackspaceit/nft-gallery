@@ -204,9 +204,7 @@ const NFTPage = () => {
             )}
           </div>
 
-          <div className="mb-8 mt-auto md:mb-40 md:w-full">
-            <PoweredBy />
-          </div>
+          
         </div>
       </div>
     </div>
