@@ -1,5 +1,5 @@
 import { createThirdwebClient, getContract } from "thirdweb";
-import { ethereum } from "thirdweb/chains";
+import { base } from "thirdweb/chains";
 
 /** Change these values to configure the application for your own use. **/
 
@@ -12,9 +12,9 @@ export const nftContract = getContract({
   address: "0xC8c32125B342DaBF2C1d6b7B3fbF0ABd42B66c4F",
   // The chain object of the chain your contract is deployed to.
   // If that chain isn't in the default list of our SDK, use `defineChain` - for example: defineChain(666666)
-  chain: ethereum,
+  chain: base,
   client,
 });
 
 // The block explorer you want to use (Opens when user clicks on history of events. i.e. transfers)
-export const blockExplorer = "https://etherscan.io";
+export const blockExplorer = "https://basescan.org";
